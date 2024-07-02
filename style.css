@@ -321,9 +321,27 @@ form btn2{
   cursor:pointer;
   background-color: #a3113a;
 }
+.submit-btn {
+  background-color: #161716; /* Green background color */
+  color: rgb(223, 221, 221); /* White text color */
+  border: none; /* Remove border */
+  padding: 15px 32px; /* Add some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 8px; 
+}
+
+/* Add hover effect */
+.submit-btn:hover {
+  background-color: #0d7730; /* Darker green on hover */
+}
+
 
   
-
 
 
 
