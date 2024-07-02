@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/0cd4423662.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="portfolio">Portfolio</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Developer</p>
+          <h1>
+            Hi, I'm <span>Ishita Roy</span><br />a front-end developer and an
+            undergraduate IT student.
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="gulid.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a 4th-year Information Technology student at Panjab University, Chandigarh, with a specialization in frontend development.
+               I have strong skills in JavaScript, React, and responsive design, having completed multiple projects that showcase my ability to build dynamic and interactive user interfaces.
+
+
+                
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+              <p class="tab-links"onclick="opentab('Education')">Education</p>
+            </div> 
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web development </span> <br> Designing Web/App interface</li>
+                <li><span>React development </span> <br> Dynamic and interactive user interface</li>
+                <li><span>Javascript Proficiency </span> <br> Solving complex problems</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>May 2024-current </span> <br> Frontend Developer at H2SO4 - ENGAGE HUB</li>
+                <li><span>June 2023-July 2023 </span> <br> Infowiz Solution as Javascript Developer</li>
+              
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>2021-2025 </span> <br> B.E in IT at Punjab University Chandigarh </li>
+                
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Application Development </h2>
+            <p> Building dynamic and responsive web applications using React and JavaScript.
+              Developing user interfaces that are both visually appealing and functional.</p>
+               <a href ="#"> learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <h2> Advanced UI/UX Development: </h2>
+            <p> Designing and implementing highly interactive and user-friendly interfaces with React.
+              Utilizing modern CSS techniques, animations, and transitions to enhance user experience.</p>
+               <a href ="#"> learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>  Responsive Design Implementation:</h2>
+            <p>Creating responsive designs that work seamlessly across different devices and screen sizes.
+              Utilizing CSS frameworks like Bootstrap or Tailwind to enhance the responsiveness and design of websites.</p>
+               <a href ="#"> learn more</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    
+      
+             <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="work3.jpg" alt="H2SO4 Engage Hub">
+      
+        <div class="layer">
+          <h3> H2SO4- ENGAGE HUB</h3>
+
+          <p>
+           
+             </p>
+          <a href="https://h2so4labs.com/#services"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work4.png" alt="Dice Game">
+        <div class="layer">
+          <h3>DICE GAME</h3>
+          <p></p>
+          <a href="https://github.com/ishitaroy2/pig-game"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work8.jpg" alt="Forkify App">
+        <div class="layer">
+          <h3>FORKIFY APP</h3>
+          <p> </p>
+          <a href="https://github.com/ishitaroy2/forkify-app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href ="#"class="btn"> See more=</a>
+     <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title"> Contact Me </h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>ishroyatwork@gmail.com </p>
+            <p><i class="fa-solid fa-phone"></i> 7004530732</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/ishita-roy-b30761233/"><i class= "fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/ishitaroy2"><i class= "fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+              
+              
+              
+              
+              
+            </div>
+            <a href="resume.pdf" download   class="btn btn2"> Download CV</a>
+
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name = "Message" rows ="6" placeholder="Your Message"></textarea>
+              <button type ="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+     </div>
+  
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      
+      function opentab(tabname) {
+        for (var tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+  </html>
